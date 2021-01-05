@@ -1,0 +1,244 @@
+.header {
+  background-image: url(../img/fondoprueba.JPG);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#menu {
+  color: rgb(1, 24, 21) !important;
+  font-weight: 500;
+}
+
+.menubar:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
+
+.textologo:hover {
+  text-decoration: none;
+  color: rgb(221, 215, 215) !important;
+}
+
+.img-logo {
+  width: 80px;
+}
+
+.linear-white::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.vh-50 {
+  height: 50vmin;
+}
+
+.texto1 {
+  font-size: 30px;
+  margin-bottom: 70px;
+  color: rgb(21, 57, 104) !important;
+}
+
+.carta1, .carta2, .carta3 {
+  --altocarta:500px;
+  height: var(--altocarta);
+}
+
+.card-img-filter {
+  filter: brightness(0.5);
+}
+
+.card {
+  transition-duration: 0.6s;
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
+}
+
+.card-effect:hover .card {
+  clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
+}
+
+.card-img-overlay {
+  transition-duration: .6s;
+}
+
+.card-effect:hover .card-img-overlay {
+  transform: scale(0.9);
+}
+
+.comments {
+  background-image: url(../img/comentarios.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &.linear-white::after {
+    top: 0;
+  }
+}
+
+.comments__img {
+  --tamaño:80px;
+  width: var(--tamaño);
+  height: var(--tamaño);
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
+  border: 3px ridge #fff;
+}
+
+.transform-turn {
+  transform: rotate(0.5turn);
+}
+
+.linear-white::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.carrusel_img {
+  height: 500px;
+}
+
+.txt_carrusel {
+  color: rgb(10, 0, 54);
+  font-weight: 500;
+}
+
+.media-objetc-img {
+  --tamaño:65px;
+  width: var(--tamaño);
+  height: var(--tamaño);
+  margin-right: 15px;
+}
+
+.txt_sacacita {
+  color: rgb(21, 57, 104) !important;
+  margin-bottom: 30px;
+}
+
+.txt_publicacion {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.subtitulo_pub {
+  color: rgba(252, 17, 17, 0.87);
+  font-weight: 500;
+}
+
+.carousel-weston-middle {
+  top: 35%;
+}
+
+.txt_comentario {
+  margin-top: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.616);
+}
+
+cite {
+  color: rgb(129, 128, 134);
+  font-weight: 500;
+}
+
+.div_container {
+  text-align: center;
+}
+
+.img_brigada {
+  max-width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.txt_brigada {
+  text-align: justify;
+}
+
+#footer {
+  background: rgb(68, 68, 68);
+  width: 100%;
+  height: auto;
+}
+
+#pie-footer {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+}
+
+.titulo-footer {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  padding: 10px;
+}
+
+.subtitulo {
+  background-color: rgb(201, 201, 12);
+  font-weight: 500;
+}
+
+.contacto1 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 800;
+}
+
+.titulo-contacto {
+  color: #fff;
+}
+
+#fondo-footer {
+  background: rgb(68, 68, 68);
+  width: 100%;
+  height: 50px;
+}
+
+.footer_accesos {
+  a {
+    color: white;
+  }
+
+  li {
+    width: 70%;
+    color: rgb(226, 226, 226);
+    font-size: 16px;
+    padding: 8px;
+    border-bottom: dashed 1px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(131, 130, 130);
+  }
+}
+
+.iconos_redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.iconos_footer {
+  width: 40px;
+
+  &:hover {
+    filter: brightness(1.5);
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dra.mendoza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andresito22/Dra.Mendoza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andresito22/Dra.Mendoza/issues"
+  },
+  "homepage": "https://github.com/Andresito22/Dra.Mendoza#readme",
+  "devDependencies": {
+    "node": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "sass": "^1.32.0"
+  }
+}
